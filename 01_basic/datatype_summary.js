@@ -64,6 +64,13 @@ const my = function(){
 
 /*
 //****************************************************
-Stack
-Heap
+Stack (Primitive)
+Heap (Non-primitive)
 */
+
+//! Stack
+let myYoutubeChannel = "Bilalcode"
+
+let anotherNmae = "Chaiaurcode"
+
+console.log(anotherNmae)

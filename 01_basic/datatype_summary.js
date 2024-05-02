@@ -40,12 +40,11 @@ let myObj = {
 };
 
 function Function() {
-    console.log("hello")
+  console.log("hello");
 }
-const my = function(){
-    return "bilal"
-}
-
+const my = function () {
+  return "bilal";
+};
 
 // console.log(typeof score)
 // console.log(typeof scoreValue)
@@ -61,16 +60,27 @@ const my = function(){
 //! Website link javascript
 //  https://262.ecma-international.org/5.1/#sec-11.4.3
 
-
 /*
 //****************************************************
 Stack (Primitive)
 Heap (Non-primitive)
 */
 
-//! Stack
-let myYoutubeChannel = "Bilalcode"
+//! Stack mean copy
+let myYoutubeChannel = "Bilalcode";
 
-let anotherNmae = "Chaiaurcode"
+let anotherNmae = myYoutubeChannel;
+anotherNmae = "Chaiaurcode";
+console.log(myYoutubeChannel);
+console.log(anotherNmae);
 
-console.log(anotherNmae)
+//! Heap mean Origional reference
+let userOne = {
+  email: "abc@gmial.com",
+  userid: "123",
+};
+let userTwo = userOne;
+userTwo.email = "bcd@gmail.com";
+console.log(userOne);
+console.log(userOne.email);
+console.log(userTwo.email);

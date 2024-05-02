@@ -46,16 +46,16 @@ const my = function () {
   return "bilal";
 };
 
-// console.log(typeof score)
-// console.log(typeof scoreValue)
-// console.log(typeof outsideTemp)
-// console.log(typeof isLoggi)
-// console.log(typeof Num)
-// console.log(typeof id)
-// console.log(typeof bigNumber)
-// console.log(typeof my)
-// console.log(typeof arr)
-// console.log(typeof myObj)
+console.log(typeof score)
+console.log(typeof scoreValue)
+console.log(typeof outsideTemp)
+console.log(typeof isLoggi)
+console.log(typeof Num)
+console.log(typeof id)
+console.log(typeof bigNumber)
+console.log(typeof my)
+console.log(typeof arr)
+console.log(typeof myObj)
 
 //! Website link javascript
 //  https://262.ecma-international.org/5.1/#sec-11.4.3

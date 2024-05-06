@@ -41,6 +41,14 @@ console.log(newDate);
 // console.log(newDate.getDate());
 // console.log(newDate.getDay());
 // console.log(newDate.getFullYear());
-console.log(newDate.getMonth() + 1); //01 mean add 4 increase 5
-console.log(newDate.getMonth()); // 0 strat index
+// console.log(newDate.getMonth() + 1); //01 mean add 4 increase 5
+// console.log(newDate.getMonth()); // 0 strat index
 // console.log(newDate.valueOf());
+
+
+myCreateDate.toLocaleString('default', {
+    weekday:"long",
+    day:'numeric'
+})
+
+//* is ma ctr + space arrow down

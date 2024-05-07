@@ -46,9 +46,9 @@ console.log(newDate);
 // console.log(newDate.valueOf());
 
 
-myCreateDate.toLocaleString('default', {
-    weekday:"long",
-    day:'numeric'
-})
+// myCreateDate.toLocaleString('default', {
+//     weekday:"long",
+//     day:'numeric'
+// })
 
 //* is ma ctr + space arrow down
